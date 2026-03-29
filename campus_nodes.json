@@ -1,0 +1,248 @@
+{
+  "campus": {
+    "name": "Vasantdada Patil Pratishthan's College of Engineering",
+    "short": "PVPPCOE",
+    "outdoor_center": { "lat": 19.050637, "lon": 72.878519 },
+    "building_entry":  { "lat": 19.050637, "lon": 72.878519 }
+  },
+
+  "floors": {
+    "3": {
+      "name": "Third Floor",
+      "map_center": { "lat": 19.050609, "lon": 72.878535 },
+      "zoom": 22,
+
+      "rooms": [
+        {
+          "name": "Lab 316 & 317",
+          "color": "#4F46E5",
+          "outline": [
+            {"lat": 19.050645, "lon": 72.878390},
+            {"lat": 19.050645, "lon": 72.878440},
+            {"lat": 19.050565, "lon": 72.878440},
+            {"lat": 19.050565, "lon": 72.878390}
+          ]
+        },
+        {
+          "name": "GCR (Room 315)",
+          "color": "#D97706",
+          "outline": [
+            {"lat": 19.050645, "lon": 72.878440},
+            {"lat": 19.050645, "lon": 72.878478},
+            {"lat": 19.050565, "lon": 72.878478},
+            {"lat": 19.050565, "lon": 72.878440}
+          ]
+        },
+        {
+          "name": "Classroom 314",
+          "color": "#16A34A",
+          "outline": [
+            {"lat": 19.050645, "lon": 72.878478},
+            {"lat": 19.050645, "lon": 72.878516},
+            {"lat": 19.050565, "lon": 72.878516},
+            {"lat": 19.050565, "lon": 72.878478}
+          ]
+        },
+        {
+          "name": "Classroom 313",
+          "color": "#16A34A",
+          "outline": [
+            {"lat": 19.050645, "lon": 72.878516},
+            {"lat": 19.050645, "lon": 72.878554},
+            {"lat": 19.050565, "lon": 72.878554},
+            {"lat": 19.050565, "lon": 72.878516}
+          ]
+        },
+        {
+          "name": "Classroom 312",
+          "color": "#16A34A",
+          "outline": [
+            {"lat": 19.050645, "lon": 72.878554},
+            {"lat": 19.050645, "lon": 72.878592},
+            {"lat": 19.050565, "lon": 72.878592},
+            {"lat": 19.050565, "lon": 72.878554}
+          ]
+        },
+        {
+          "name": "Classroom 311",
+          "color": "#16A34A",
+          "outline": [
+            {"lat": 19.050645, "lon": 72.878592},
+            {"lat": 19.050645, "lon": 72.878635},
+            {"lat": 19.050565, "lon": 72.878635},
+            {"lat": 19.050565, "lon": 72.878592}
+          ]
+        },
+        {
+          "name": "Faculty Room",
+          "color": "#DC2626",
+          "outline": [
+            {"lat": 19.050690, "lon": 72.878630},
+            {"lat": 19.050690, "lon": 72.878730},
+            {"lat": 19.050650, "lon": 72.878730},
+            {"lat": 19.050650, "lon": 72.878630}
+          ]
+        },
+        {
+          "name": "Washroom",
+          "color": "#0284C7",
+          "outline": [
+            {"lat": 19.050565, "lon": 72.878690},
+            {"lat": 19.050565, "lon": 72.878730},
+            {"lat": 19.050520, "lon": 72.878730},
+            {"lat": 19.050520, "lon": 72.878690}
+          ]
+        },
+        {
+          "name": "Stairs",
+          "color": "#7C3AED",
+          "outline": [
+            {"lat": 19.050565, "lon": 72.878635},
+            {"lat": 19.050565, "lon": 72.878690},
+            {"lat": 19.050520, "lon": 72.878690},
+            {"lat": 19.050520, "lon": 72.878635}
+          ]
+        },
+        {
+          "name": "Lift / E0",
+          "color": "#7C3AED",
+          "outline": [
+            {"lat": 19.050665, "lon": 72.878635},
+            {"lat": 19.050665, "lon": 72.878700},
+            {"lat": 19.050610, "lon": 72.878700},
+            {"lat": 19.050610, "lon": 72.878635}
+          ]
+        }
+      ],
+
+      "nodes": [
+        {
+          "id": 0,
+          "name": "E0 (Lift Entrance)",
+          "type": "stairs",
+          "esp": "ESP-0",
+          "lat": 19.050637,
+          "lon": 72.878668,
+          "gridX": 0, "gridY": 0,
+          "adj": [1, 2, 3]
+        },
+        {
+          "id": 1,
+          "name": "Faculty Room",
+          "type": "office",
+          "esp": "ESP-0",
+          "lat": 19.050670,
+          "lon": 72.878680,
+          "gridX": 0, "gridY": 1,
+          "adj": [0]
+        },
+        {
+          "id": 2,
+          "name": "Stairs",
+          "type": "stairs",
+          "esp": "ESP-0",
+          "lat": 19.050542,
+          "lon": 72.878662,
+          "gridX": 0, "gridY": -1,
+          "adj": [0, 4]
+        },
+        {
+          "id": 3,
+          "name": "E1 (Corridor Junction)",
+          "type": "junction",
+          "esp": "ESP-1",
+          "lat": 19.050610,
+          "lon": 72.878613,
+          "gridX": -1, "gridY": 0,
+          "adj": [0, 4, 5]
+        },
+        {
+          "id": 4,
+          "name": "Washroom",
+          "type": "washroom",
+          "esp": "ESP-0",
+          "lat": 19.050542,
+          "lon": 72.878710,
+          "gridX": 0, "gridY": -2,
+          "adj": [2]
+        },
+        {
+          "id": 5,
+          "name": "Classroom 311",
+          "type": "classroom",
+          "esp": "ESP-1",
+          "lat": 19.050610,
+          "lon": 72.878573,
+          "gridX": -2, "gridY": 0,
+          "adj": [3, 6]
+        },
+        {
+          "id": 6,
+          "name": "Classroom 312",
+          "type": "classroom",
+          "esp": "ESP-1",
+          "lat": 19.050610,
+          "lon": 72.878535,
+          "gridX": -3, "gridY": 0,
+          "adj": [5, 7]
+        },
+        {
+          "id": 7,
+          "name": "Classroom 313",
+          "type": "classroom",
+          "esp": "ESP-3",
+          "lat": 19.050610,
+          "lon": 72.878497,
+          "gridX": -4, "gridY": 0,
+          "adj": [6, 8]
+        },
+        {
+          "id": 8,
+          "name": "Classroom 314",
+          "type": "classroom",
+          "esp": "ESP-3",
+          "lat": 19.050610,
+          "lon": 72.878459,
+          "gridX": -5, "gridY": 0,
+          "adj": [7, 9]
+        },
+        {
+          "id": 9,
+          "name": "E3 (GCR Junction)",
+          "type": "junction",
+          "esp": "ESP-3",
+          "lat": 19.050610,
+          "lon": 72.878421,
+          "gridX": -6, "gridY": 0,
+          "adj": [8, 10, 11]
+        },
+        {
+          "id": 10,
+          "name": "GCR (Room 315)",
+          "type": "classroom",
+          "esp": "ESP-3",
+          "lat": 19.050605,
+          "lon": 72.878459,
+          "gridX": -6, "gridY": -1,
+          "adj": [9]
+        },
+        {
+          "id": 11,
+          "name": "Lab 316 & 317",
+          "type": "lab",
+          "esp": "ESP-3",
+          "lat": 19.050610,
+          "lon": 72.878415,
+          "gridX": -7, "gridY": 0,
+          "adj": [9]
+        }
+      ]
+    }
+  },
+
+  "esp_map": {
+    "VESIT-ESP-0": { "nodeId": 0, "name": "E0 Lift Entrance" },
+    "VESIT-ESP-1": { "nodeId": 3, "name": "E1 Corridor Junction" },
+    "VESIT-ESP-3": { "nodeId": 9, "name": "E3 GCR Junction" }
+  }
+}
